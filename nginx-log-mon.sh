@@ -15,3 +15,4 @@ sudo apt-get install logdna-agent < "/dev/null"
 sudo logdna-agent -k 3d3422826300b1cb09ee094e22af518b
 sudo logdna-agent -s LOGDNA_APIHOST=api.us-south.logging.cloud.ibm.com
 sudo logdna-agent -s LOGDNA_LOGHOST=logs.us-south.logging.cloud.ibm.com
+sudo logdna-agent -d /var/log/nginx
