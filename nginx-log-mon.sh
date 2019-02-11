@@ -17,3 +17,5 @@ sudo logdna-agent -s LOGDNA_APIHOST=api.us-south.logging.cloud.ibm.com
 sudo logdna-agent -s LOGDNA_LOGHOST=logs.us-south.logging.cloud.ibm.com
 sudo logdna-agent -d /var/log/nginx
 sudo logdna-agent -t demotag
+sudo update-rc.d logdna-agent defaults
+sudo /etc/init.d/logdna-agent start
